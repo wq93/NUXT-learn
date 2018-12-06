@@ -1,7 +1,7 @@
 <template>
   <div class="page">Page is search
     <ul>
-      <li v-for="item in $store.state.city.list">{{item}}</li>
+      <li v-for="item in $store.state.navbar.app">{{item}}</li>
     </ul>
   </div>
 </template>
